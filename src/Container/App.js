@@ -29,7 +29,7 @@ class App extends Component {
      return (
        <div>
          <NavBar />
-         <Main />
+         <Main recipes={this.state.recipes}/>
          <Entertainment />
          <Technology />
 

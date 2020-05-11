@@ -1,5 +1,5 @@
 import React from 'react';
-import Food from '../components/Food';
+import Food from '../Components/Food';
 
 const FoodList = ({ recipes }) => {
   console.log('recipes in foodlist', recipes)
