@@ -3,6 +3,13 @@ import NavBar from '../Components/NavBar';
 import './App.css';
 
 class App extends Component {
+  
+  constructor (){
+    super ()
+    this.state = {
+      recipes: [],
+    }
+  }
    render (){
      return (
        <div>
