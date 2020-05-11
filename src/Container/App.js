@@ -20,8 +20,9 @@ class App extends Component {
     .then(res => {
       const meals = res.data.meals
       this.setState({ recipes: meals})
-      console.log(this.state.recipes)
+      // console.log(this.state.recipes)
     })
+    .catch(error => console.log(error) );
   }
    render (){
 

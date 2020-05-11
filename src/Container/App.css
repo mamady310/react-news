@@ -1,0 +1,31 @@
+.navbar {
+    position: fixed;
+    top: 0;
+    width: 100%;
+    font-size: 2em;
+    background-color: white;
+    display: flex;
+  }
+  
+  .navbar ul li {
+    color: black;
+    padding-right: 20px;
+    display: inline; 
+  }
+  
+  .main-section {
+    height: 100vh;
+    background-color: lightblue;
+  }
+  .entertainment-section {
+    height: 100vh;
+    background-color: blueviolet;
+  }
+  .technology-section {
+    height: 100vh; 
+    background-color: grey;
+  }
+  h1{
+    padding-top: 40px;
+    text-align: center;
+  }
